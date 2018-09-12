@@ -1,0 +1,10 @@
+<div class="row">
+  <div class="leftPanel col-sm-11">
+      <h4>Planet Search</h4>
+      <input #planetName id="planetName" (keyup)="search(planetName.value)" />
+  </div>
+  <div class="rightPanel col-sm-1">
+    <a [routerLink]="''" >Logout</a>
+  </div>
+</div>
+

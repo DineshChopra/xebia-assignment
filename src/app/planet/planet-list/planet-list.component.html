@@ -1,0 +1,18 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Diameter</th>
+      <th>Population</th>
+      <th>Font Size</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let planet of planets" [style.fontSize]="getFontSize(planet.population)">
+      <td>{{planet.name}}</td>
+      <td>{{planet.diameter}}</td>
+      <td>{{planet.population}}</td>
+      <td>{{getFontSize(planet.population)}}</td>
+    </tr>
+  </tbody>
+</table>
