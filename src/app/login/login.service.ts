@@ -6,8 +6,8 @@ import { of, Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class LoginService {
-  readonly USERNAME = '';
-  readonly PASSWORD = '';
+  readonly USERNAME = 'Luke Skywalker';
+  readonly PASSWORD = '19BBY';
 
   constructor(private router: Router) { }
 

@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { PlanetSearchComponent } from './planet/planet-search/planet-search.component';
 import { PlanetListComponent } from './planet/planet-list/planet-list.component';
-import { HeaderComponent } from './planet/header/header.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PlanetComponent } from './planet/planet.component';
 import { HttpClientModule } from '@angular/common/http';
@@ -18,7 +17,6 @@ import { HttpClientModule } from '@angular/common/http';
     PlanetComponent,
     PlanetSearchComponent,
     PlanetListComponent,
-    HeaderComponent,
   ],
   imports: [
     BrowserModule,
